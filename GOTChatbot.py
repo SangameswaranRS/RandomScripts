@@ -25,7 +25,7 @@ def LemNormalize(text):
     return    
 
 # Use Cosine similarity - to find out similar sentences in the corpus and return it to the user.
-# TFID Vectorizer - To vectorize words in the userip, corpus.
+# TF-IDF Vectorizer - To vectorize words in the userip, corpus.
 def response(user_response, sentencesInTheDataset):
     robo_response=''
     vectorizer = TfidfVectorizer()
